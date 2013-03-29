@@ -4,7 +4,7 @@ Magento-Info-Tabs
 Add  Tabs to Magento Tabs
 
 
-####Place THis in Your local.xml file
+####Place this in Your local.xml file:
 
 ```xml
 <!--
@@ -23,7 +23,7 @@ Catalog Product View Layout
 </catalog_product_view>  
 ```
 
-####Add This to the Area you would like you Info Tabs to show up
+####Add This to /YourTemplate/catalog/product/view.phtml in the area you would like you Info Tabs to show up
 
 ```php
 <?php echo $this->getChildHtml('info_tabs');?>
